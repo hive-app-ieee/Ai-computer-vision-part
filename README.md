@@ -70,11 +70,9 @@ Form Data:
 {
   "message": "shahd elghitani checked in successfully"
 }
-GET /attendance?name=shahdelghitani
-{
-  "entry_time": "2024-09-12 08:00:00",
-  "exit_time": "2024-09-12 17:00:00"
-}
+
+
+
 ### GET `/attendance`
 
 This endpoint retrieves the attendance record (entry and exit times) for an individual based on their name.
@@ -92,4 +90,6 @@ This endpoint retrieves the attendance record (entry and exit times) for an indi
 **Example Request**:
 ```bash
 GET /attendance?name=shahdelghitani
+
+
 
