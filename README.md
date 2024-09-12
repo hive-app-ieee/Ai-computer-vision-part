@@ -75,4 +75,21 @@ GET /attendance?name=shahdelghitani
   "entry_time": "2024-09-12 08:00:00",
   "exit_time": "2024-09-12 17:00:00"
 }
+### GET `/attendance`
+
+This endpoint retrieves the attendance record (entry and exit times) for an individual based on their name.
+
+- **Method**: `GET`
+
+- **Parameters**:
+  - `name` (required): The name of the individual whose attendance record you want to retrieve.
+
+- **Response**:
+  - `200 OK`: Returns the entry and exit times for the specified individual.
+  - `400 Bad Request`: The `name` parameter is missing.
+  - `404 Not Found`: No records found for the provided name.
+
+**Example Request**:
+```bash
+GET /attendance?name=shahdelghitani
 
