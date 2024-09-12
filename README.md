@@ -72,7 +72,6 @@ Form Data:
 }
 
 
-
 ### GET `/attendance`
 
 This endpoint retrieves the attendance record (entry and exit times) for an individual based on their name.
@@ -90,6 +89,5 @@ This endpoint retrieves the attendance record (entry and exit times) for an indi
 **Example Request**:
 ```bash
 GET /attendance?name=shahdelghitani
-
 
 
