@@ -62,14 +62,6 @@ This endpoint handles the check-in and check-out process of individuals based on
   - `400 Bad Request`: Missing required parameters or no face found in the image.
   - `500 Internal Server Error`: Error processing the image or interacting with the database.
 
-**Example Request**:
-```bash
-POST /check_in_or_out
-Form Data:
-- name: [shahdelghitani] (Only for first-time registration)
-{
-  "message": "shahd elghitani checked in successfully"
-}
 
 
 ### GET `/attendance`
@@ -90,4 +82,8 @@ This endpoint retrieves the attendance record (entry and exit times) for an indi
 ```bash
 GET /attendance?name=shahdelghitani
 
+{
+  "entry_time": "2024-09-12 08:00:00",
+  "exit_time": "2024-09-12 17:00:00"
+}
 
