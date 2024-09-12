@@ -66,7 +66,6 @@ This endpoint handles the check-in and check-out process of individuals based on
 ```bash
 POST /check_in_or_out
 Form Data:
-- image: [Your Image File]
 - name: [shahdelghitani] (Only for first-time registration)
 {
   "message": "shahd elghitani checked in successfully"
