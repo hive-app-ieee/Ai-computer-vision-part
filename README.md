@@ -1,4 +1,6 @@
 # Face Recognition Attendance System
+___
+
 
 This project implements a face recognition attendance system designed to capture and record the entry and exit times of individuals. Below is an overview of the system's key features, architecture, and API documentation.
 
